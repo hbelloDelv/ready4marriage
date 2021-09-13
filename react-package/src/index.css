@@ -1,0 +1,160 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff5f6d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0px 4% 0px 0px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.nav-item li{
+  padding-right: 5%;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+
+.nav-item {
+margin-left: auto;
+padding-right: 1%;
+}
+
+.nav-item a{
+  /* padding-right: 5%; */
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  
+}
+
+nav .burgar{
+  /* font-size: 24px; */
+  display: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+@media all and (max-width: 768px) {
+  nav .burgar{
+    display: block;
+  }
+
+  .nav-item{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color:  #e44553; 
+    padding: 48px;
+    width: 50%;
+    transform: translateX(-500px);
+    transition: 0.5s ease-in-out;
+  }
+
+  .nav-item li{
+    padding: 24px;
+    border-bottom: 1px solid #ccc;
+  }
+
+
+  .nav-item li:last-of-type{
+    border-bottom: 1px solid #ccc;
+  }
+
+  .nav-item a:hover{ 
+    border-bottom: 0px solid #fff;
+  }  
+}
+
+
+/* Starts */
+
+.image-width img{
+  width: 80%;
+  /* background-color: blue; */
+}
+/* Ends */
+
+
+
+/* Starts */
+.herosection-style{
+  padding: 48px 0px 288px 0px;
+  /* padding-bottom: 288px; */
+}
+
+
+.herosection-style{
+  background-image: url('../src/assets/img/hero-bg-4.jpg');
+  background-color: palevioletred;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  
+ 
+}
+
+
+
+/* Dont use "em" or "px" to size text use viewport units for responsive typography*/
+.herosection-style h1{
+  margin: 56px 0px 0px 48px;
+  font-size: 8vw;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.herosection-text p{
+  margin: 24px 0px 0px 48px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+}
+
+.button-style {
+  text-decoration: none;
+  background-color: white;
+  margin: 16px 0px 0px 48px;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  width: 80px;
+  text-align: center;
+}
+
+.button-style a{
+  text-decoration: none;
+  color: lightcoral;
+  font-weight: bold;
+}
+/* Ends */
+

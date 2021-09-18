@@ -123,3 +123,29 @@
   /* .expanding-experience.convienence.support p{
     text-align: center;
   } */
+
+
+/* Starts */
+  .expandAud-icon{
+    width: 64px;
+    height: 64px;
+    color: rgb(233, 74, 74);
+  }
+  
+  /* Ends */
+
+
+  /* Starts */
+  .convi-icon{
+    width: 64px;
+    height: 64px;
+    color: rgb(233, 74, 74);
+  }
+  
+  /* Ends */
+
+  .supportIcon{
+    width: 64px;
+    height: 64px;
+    color: rgb(233, 74, 74);
+  }

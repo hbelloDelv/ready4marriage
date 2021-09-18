@@ -4,7 +4,9 @@ import { useState } from 'react';
 import Activity from './activity/Activity';
 import Encounter from './encounters/Wrapper'
 import logo from './images/logo.png';
-import { FaBars } from 'react-icons/fa'
+import userProfileImage from './images/imag1.jpg'
+import { FaBars} from 'react-icons/fa'
+import { MdExpandMore } from 'react-icons/md'
 
 
 function UserDashboardHeader() {
@@ -27,7 +29,12 @@ function UserDashboardHeader() {
                     <li className="upgrade-link"><Link>Upgrade</Link></li>
                     <li><Link>Balance</Link></li>
                     <li><Link>Credits</Link></li>
-                    <li><Link>DropD Menu</Link></li>
+                    <li>
+                        <Link>
+                             <img src={userProfileImage} alt={"user-profile-image"} className="userProfileImage-two"/>
+                            <span><MdExpandMore className="usermoreIcon"/></span> 
+                        </Link>
+                    </li>
                 </ul>
             </div>
             {/* <i onClick={() => settoggleUserBar(!toggleUserBar)} className="fa fa-bars burgar"></i> */}

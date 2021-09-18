@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+// import { IconName } from "react-icons/io5";
+import { IoPeopleOutline, FcBusinessman, FcBusinesswoman } from "react-icons/fc";
 
 function IamLookingForSection() {
     return (
@@ -7,9 +10,9 @@ function IamLookingForSection() {
                 I am Looking for
             </div>
             <div className="iamLookingFor-content">
-                <div className="image1">Image 1</div>
-                <div className="image1">Image 2</div>
-                <div className="image1">Image 3</div>
+                <div className="image1"><Link>< FcBusinessman className="lookForMan"/></Link></div>
+                <div className="image1"><Link>< FcBusinessman className="lookForMan"/></Link></div>
+                <div className="image1"><Link><FcBusinesswoman className="lookForWoman"/></Link></div>
             </div>
         </div>
     )

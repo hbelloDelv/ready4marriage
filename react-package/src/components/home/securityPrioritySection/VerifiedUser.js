@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { MdVerifiedUser } from 'react-icons/md'
 
 function VerifiedUser() {
     return (
         <div className="verifiedUser-style">
-            <div className="verifiedUser-style-icon">image</div>
+            <div className="verifiedUser-style-icon"><MdVerifiedUser className="verifiedUser-icon"/></div>
             <div>
                 <h4>Verified User</h4>
                 <p>Everyday thousands of new women and men add 

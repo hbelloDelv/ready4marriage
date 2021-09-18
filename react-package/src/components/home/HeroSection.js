@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import { MdLockOutline } from 'react-icons/md';
 
 function HeroSection() {
     return (
@@ -11,7 +12,7 @@ function HeroSection() {
                         Dating for successful men and ambitious women Find <br /> a relationship on your own terms
                     </p>
                     <form className="button-style">
-                    <Link to="/login">Login</Link>
+                    <Link to="/login"><span><MdLockOutline className="loginIconHome"/> </span>Login</Link>
                     </form>
                 </div>
             </div>

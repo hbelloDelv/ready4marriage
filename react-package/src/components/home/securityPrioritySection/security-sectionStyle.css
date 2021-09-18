@@ -116,3 +116,44 @@
   /* font-size: 3vw; */
 }
 /* Ends */
+
+
+/* Starts  */
+.confidentiality-style-icon{
+  margin: auto;
+}
+
+.confi-icon{
+  width: 64px;
+  height: 64px;
+  color: rgb(233, 74, 74);
+}
+
+/* Ends */
+
+/* Starts  */
+.securitySystem-style-icon{
+  margin: auto;
+}
+
+.securitySys-icon{
+  width: 64px;
+  height: 64px;
+  color: rgb(233, 74, 74);
+}
+
+/* Ends */
+
+
+/* Starts  */
+.verifiedUser-style-icon{
+  margin: auto;
+}
+
+.verifiedUser-icon{
+  width: 64px;
+  height: 64px;
+  color: rgb(233, 74, 74);
+}
+
+/* Ends */
